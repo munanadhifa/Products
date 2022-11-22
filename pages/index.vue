@@ -3,7 +3,11 @@
 </template>
 
 <script>
+import Product from "./products/Product.vue";
 export default {
-  name: "IndexPage",
+  name: "products",
+  components: {
+    Product,
+  },
 };
 </script>
